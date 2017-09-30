@@ -1,0 +1,71 @@
+.icons{
+    color: darkorange;
+}
+.check{
+    color:greenyellow;
+    
+}
+.uncheck{
+    color:crimson;
+}
+.boxes{
+    text-align: center
+}
+.row{
+    width: 100%;
+}
+.next-event{
+    padding-top:50px;
+}
+.benefit-section{
+    padding-top: 50px;
+    /* padding: 50px 120px 0px; */
+    width: 90%;
+    margin: auto;
+    min-width: 1024px;
+}
+.benefits-content{
+    width: 55%;
+    min-width: 320px;
+    margin: auto;
+    text-align: center;
+    padding: 20px 10px 50px;
+}
+img{
+    width: 100%;
+    border-radius: 5px;
+    padding-bottom: 10px;
+}
+.benefits{
+    padding-bottom: 20px;
+}
+.benefit-title{
+    font-weight: 500;
+    font-size: 16px;
+}
+.text-center{
+    text-align: center;
+}
+.marginT25{
+    margin-top: 25px;
+}
+.widthAuto{
+    width: auto;
+}
+@media(max-width:1023px){
+    .benefit-section{
+        width: 100%;
+        min-width: 100%;
+    }
+    
+    .benefits-content{
+        width: 100%;
+    }
+}
+@media(max-width:850px){
+    .benefits{
+        width: 100%;
+        min-width: 100%;
+    }
+
+}
